@@ -1,5 +1,7 @@
 # Use-case Specific Chatbot using LangChain and OpenAI
 
+You can read further in thie [medium](https://medium.com/p/f092822b6ba6/edit) article.
+
 ## Overview
 This repo focuses on creating a simple but use-case specific chatbot using LangChain and the text completion model from OpenAI. Scoopsie is a specialized chatbot dedicated to queries regarding ice-cream. Built using LangChain and OpenAI, it's designed to provide information and advice on ice cream flavors, recipes, and related queries. 
 
