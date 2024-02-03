@@ -1,9 +1,9 @@
-# Use-case Specific Chatbot using LangChain and OpenAI
+# Custom Chatbot using LangChain, OpenAI and Chainlit
 
-You can read further in this [medium](https://medium.com/p/f092822b6ba6/edit) article.
+You can read further [here](https://medium.com/@tahreemrasul/how-to-build-your-own-chatbot-with-langchain-and-openai-f092822b6ba6) and [here](https://medium.com/@tahreemrasul/how-to-build-your-own-chatbot-with-langchain-and-openai-f092822b6ba6).
 
 ## Overview
-This repo focuses on creating a simple but use-case specific chatbot using LangChain and the text completion model from OpenAI. Scoopsie is a specialized chatbot dedicated to queries regarding ice-cream. Built using LangChain and OpenAI, it's designed to provide information and advice on ice cream flavors, recipes, and related queries. 
+This repo focuses on creating a custom chatbot using LangChain and the text completion model from OpenAI. The application is built using Chainlit. Scoopsie is a specialized chatbot dedicated to queries regarding ice-cream. Built using LangChain and OpenAI, it's designed to provide information and advice on ice cream flavors, recipes, and related queries. 
 
 ## Getting Started
 
@@ -22,10 +22,10 @@ This repo focuses on creating a simple but use-case specific chatbot using LangC
 * If you don't have Conda, install it first.
 * Create a new Conda environment:
    ```bash
-   conda create -n scoopsie-env python=3.8
+   conda create -n chatbot_langchain python=3.8
 * Activate the environment:
    ```bash
-   conda activate scoopsie-env
+   conda activate chatbot_langchain
 
 3. **Install Dependencies**
 * Install the required packages using the requirements.txt file:
@@ -42,5 +42,8 @@ This repo focuses on creating a simple but use-case specific chatbot using LangC
 
 To run Scoopsie, simply execute the chatbot.py script:
    ```bash
-   python chatbot.py
+   chainlit run chatbot.py -w --port 8000
+```
+
+To run the application, navigate to  http://localhost:8000
 
