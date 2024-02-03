@@ -3,3 +3,4 @@ openai==1.9.0
 nbconvert
 python-dotenv==1.0.0
 langchain-openai
+chainlit
