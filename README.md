@@ -46,7 +46,7 @@ To run the fictional store's API, execute the following command:
 ```
 The fictional store's API will be accessible at http://localhost:5000/{endpoint_name}
 
-Make sure the fictional store's applicaion is running before running the chatbot. To run Scoopsie, 
+Make sure the fictional store's application is running before running the chatbot. To run Scoopsie, 
 simply execute the `chatbot.py` script:
    ```bash
    chainlit run chatbot.py -w --port 8000
